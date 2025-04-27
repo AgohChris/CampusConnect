@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'CampusConnectback.wsgi.application'
 DATABASES = {
     'default':{
         'ENGINE':'django.db.backends.postgresql',
-        'NAME': 'CampusConnect',
+        'NAME': 'campusconnect',
         'USER' :'chris',
         'PASSWORD': '1234',
-        'HOST':'127.0.0.1',
+        'HOST':'localhost',
         'PORT':'5432'
     }
 }
